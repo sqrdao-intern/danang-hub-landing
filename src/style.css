@@ -139,8 +139,9 @@ button {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 100;
+  z-index: 103;
   padding: var(--spacing-sm) 0;
+  min-height: var(--header-height);
   transition: var(--transition);
 }
 
@@ -148,6 +149,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: calc(var(--header-height) - var(--spacing-sm) * 2);
 }
 
 .logo {
@@ -698,7 +700,8 @@ textarea.form-field {
   background: transparent;
   border: none;
   cursor: pointer;
-  z-index: 101;
+  z-index: 104;
+  position: relative;
 }
 
 .mobile-menu-btn span {
@@ -735,7 +738,7 @@ textarea.form-field {
   :root {
     --spacing-xl: 3rem;
     --spacing-lg: 1.5rem;
-    --header-height: 70px;
+    --header-height: 80px;
   }
 
   .header-container {
@@ -775,7 +778,7 @@ textarea.form-field {
 
   /* Hero */
   .hero {
-    padding-top: var(--header-height);
+    padding-top: calc(var(--header-height) + 1rem);
     min-height: auto;
     padding-bottom: var(--spacing-xl);
     overflow-x: hidden;
