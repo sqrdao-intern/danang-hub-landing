@@ -325,7 +325,7 @@ document.querySelector('#app').innerHTML = `
       </div>
     </div>
     <div class="footer-bottom text-center">
-      <p>&copy; 2026 Da Nang Blockchain Hub. All rights reserved.</p>
+      <p>&copy; 2026 sqrDAO. All rights reserved.</p>
     </div>
   </footer>
 `
