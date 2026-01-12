@@ -759,14 +759,31 @@ textarea.form-field {
     padding-top: 100px;
     min-height: auto;
     padding-bottom: var(--spacing-xl);
+    overflow-x: hidden;
+    /* Prevent horizontal overflow explicitly */
   }
 
   .hero-title {
-    font-size: 2.25rem;
+    font-size: clamp(2rem, 8vw, 2.5rem);
+    /* Responsive font size */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    /* Ensure long words break */
+    padding: 0 var(--spacing-sm);
+    /* Add slight padding if needed */
+  }
+
+  /* Ensure gradient text wraps properly */
+  .gradient-text {
+    display: inline;
+    /* changing from inline-block to allow better wrapping */
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
   }
 
   .hero-subtitle {
     font-size: 1rem;
+    padding: 0 var(--spacing-md);
   }
 
   .hero-actions {
@@ -786,10 +803,14 @@ textarea.form-field {
   /* Section Spacing */
   .section {
     padding: var(--spacing-xl) 0;
+    overflow-x: hidden;
+    /* Safety for sections */
   }
 
   .section-title {
-    font-size: 2rem;
+    font-size: 1.75rem;
+    /* Slightly smaller */
+    padding: 0 var(--spacing-md);
   }
 
   /* Partners */
