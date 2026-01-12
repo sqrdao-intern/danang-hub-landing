@@ -4,7 +4,7 @@ document.querySelector('#app').innerHTML = `
   <header class="header glass">
     <div class="container header-container">
       <div class="logo">
-        <img src="/assets/logo-white-full.svg" alt="Da Nang Blockchain Hub" height="48">
+        <img src="/assets/logo.svg" alt="Da Nang Blockchain Hub" height="48">
       </div>
       <button class="mobile-menu-btn" aria-label="Toggle Menu">
         <span></span>
@@ -305,7 +305,7 @@ document.querySelector('#app').innerHTML = `
   <footer class="footer section">
     <div class="container footer-container">
       <div class="footer-brand">
-        <img src="/assets/logo-white-full.svg" alt="Da Nang Blockchain Hub" class="footer-logo" height="60" style="margin-bottom: 0.5rem;">
+        <img src="/assets/logo.svg" alt="Da Nang Blockchain Hub" class="footer-logo" height="60" style="margin-bottom: 0.5rem;">
         <p>Accelerating the Decentralized Future in Central Vietnam.</p>
       </div>
       <div class="footer-links">
