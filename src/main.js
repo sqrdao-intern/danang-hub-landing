@@ -1,4 +1,7 @@
 import './style.css'
+import { inject } from '@vercel/analytics'
+
+inject()
 
 document.querySelector('#app').innerHTML = `
   <header class="header glass">
