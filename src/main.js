@@ -484,9 +484,11 @@ document.querySelector('#app').innerHTML = `
             Facebook
           </a>
           <a href="https://t.me/+7ycB8RxiZQY5MDNl" target="_blank" class="btn btn-secondary" style="display: flex; align-items: center; gap: 0.5rem;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-8.609 3.33c-2.068.8-4.133 1.598-5.724 2.21a405.15 405.15 0 0 1-2.863 1.09c-1.115.422-1.636.566-1.588.66.074.15.539.317 1.25.666 1.056.516 2.053 1.095 2.531 1.63a3.52 3.52 0 0 1 .491.737c.189.444.202.825.105 1.154-.084.285-.297.525-.566.703-.309.205-.71.36-1.558.175-.63-.138-1.516-.273-2.646-.273-.67 0-1.348.06-1.99.18a3.1 3.1 0 0 0-1.28.539 2.53 2.53 0 0 0-.825 1.604c-.067.575.053 1.198.544 1.708.435.452 1.05.747 1.748.86 1.517.247 3.525.247 5.617-.234 1.849-.425 3.398-1.42 4.417-2.695l.02.015a2.27 2.27 0 0 0 1.25-.632c.563-.565.814-1.353.94-2.128L21.84 4.54a2.24 2.24 0 0 0-.642-2.107zM3.483 14.153c.48.093 1.018.14 1.58.14 1.077 0 1.916-.135 2.478-.266.38-.088.7-.163.957-.163.633 0 1.13.25 1.48.775.297.447.464 1.006.464 1.624 0 1.229-.684 2.195-1.728 2.668-.466.21-1.02.327-1.63.327-.584 0-1.2-.1-1.802-.218-.546-.107-1-.33-1.312-.654-.319-.333-.377-.73-.332-1.07.039-.317.2-.676.54-1.01.378-.372.93-.687 1.616-.927 1.4-.492 3.254-1.186 5.12-1.908l8.608-3.33c.96-.37 1.683-.652 1.683-.652s.373-.15.424-.047c.05.103-.314 1.944-1.298 6.467-.116.533-.313 1.156-.7 1.545-.487.488-1.205.717-2.008.349-1.272-.582-2.825-1.442-4.184-2.27a.78.78 0 0 1 .158-.291c.29-.318.595-.589.923-.815l4.316-2.97c.594-.41.67-.93.18-1.135-.49-.204-1.08.064-1.52.366L6.873 13.91l-.226.136c-.463.275-.807.478-1.26.543-.377.054-.744-.01-1.06-.153z"/></svg> 
-            <!-- Using a simpler generic plane/send icon for Telegram if complex path fails, but trying standard path first. Actually, let's use a simpler send icon for reliability. -->
-             Telegram
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 2L11 13"></path>
+              <path d="M22 2l-7 20-4-9-9-4 20-7z"></path>
+            </svg>
+            Telegram
           </a>
           <a href="mailto:gm@sqrdao.com" class="btn btn-secondary" style="display: flex; align-items: center; gap: 0.5rem;">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
