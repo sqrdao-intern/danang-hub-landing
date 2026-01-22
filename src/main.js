@@ -433,7 +433,7 @@ document.querySelector('#app').innerHTML = `
                  <div class="info-icon">⏰</div>
                  <div>
                    <h4>Hours</h4>
-                  <p>Monday - Friday: 8:00 AM - 8:00 PM</p>
+                  <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
                  </div>
                </div>
              </div>
